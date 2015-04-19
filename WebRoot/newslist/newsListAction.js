@@ -35,6 +35,7 @@ function clickGetNewsList() {
 		success : function(data) {
 			var jsonText = JSON.stringify(data);
 			alert(jsonText);
+			// 解析json数据
 			window.location.href = "../newsdetail/newsdetailpage.html?newsid=1"
 		}
 	});
