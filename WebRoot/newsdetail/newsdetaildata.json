@@ -1,0 +1,114 @@
+{
+    "response": {
+        "header": {
+            "rspType": "0",
+            "rspCode": "0000",
+            "rspDesc": "查询成功"
+        },
+        "body": {
+            "pageInfo": {
+                "page": "1",
+                "pageSize": "10",
+                "totalPage": "1",
+                "totalCount": "1"
+            },
+            "totalCount": 1,
+            "alctiveList": [
+                {
+                    "clubId": "1",
+                    "clubName": "哼哈友羽毛球俱乐部",
+                    "payStyle": "到付",
+                    "memberId": "",
+                    "memberName": "",
+                    "isSpecial": "0",
+                    "activeId": "467",
+                    "provinceId": "17",
+                    "provinceName": "江苏",
+                    "longitude": "120.736430",
+                    "latitude": "31.264802",
+                    "isOn": "1",
+                    "cityId": "220",
+                    "cityName": "苏州",
+                    "countyId": "2143",
+                    "countyName": "工业园区",
+                    "venueId": "6",
+                    "venueName": "生物纳米科技园",
+                    "topNum": "12",
+                    "realNum": "1",
+                    "createUesr": "",
+                    "createUesrName": "",
+                    "isInclude": "",
+                    "modifyUserId": "",
+                    "modifyUserName": "",
+                    "activeTitle": "0419+周日+生物纳米园",
+                    "activeDate": "2015-4-19 10:00:00",
+                    "activeHours": "2",
+                    "activeFee": "25",
+                    "weekDay": "周日",
+                    "createTime": "2015-4-15 23:13:47",
+                    "endTime": "2015-4-16 1:13:47",
+                    "modifyTime": "",
+                    "isValid": "1",
+                    "isDel": "0",
+                    "code": "8152",
+                    "mobile": "",
+                    "remark": "",
+                    "isHui": "1",
+                    "huiTips": "充值送礼品",
+                    "activeLogo": "http://www.17workout.com/Admin/UploadFile/club/club_20150308124558710.png",
+                    "shareTitle": "",
+                    "shareUrl": "",
+                    "isRecommend": "0",
+                    "isTop": "0",
+                    "recommendValue": "0",
+                    "distance": "0"
+                }
+            ],
+            "isCache": "0",
+            "activeAdvertismentList": [
+                {
+                    "noticeUrlType": "",
+                    "redirectUrl": "",
+                    "imageName": "广告1",
+                    "imageUrl": "http://www.17workout.com/Admin/UploadFile/api/venueAdv.png",
+                    "typeId": "",
+                    "versionBegin": 0,
+                    "versionEnd": 0,
+                    "category": 0,
+                    "provinceId": "",
+                    "cityId": "",
+                    "sortIndex": 0,
+                    "isTop": 0
+                },
+                {
+                    "noticeUrlType": "",
+                    "redirectUrl": "",
+                    "imageName": "广告2",
+                    "imageUrl": "http://www.17workout.com/Admin/UploadFile/api/test1.png",
+                    "typeId": "",
+                    "versionBegin": 0,
+                    "versionEnd": 0,
+                    "category": 0,
+                    "provinceId": "",
+                    "cityId": "",
+                    "sortIndex": 0,
+                    "isTop": 0
+                },
+                {
+                    "noticeUrlType": "",
+                    "redirectUrl": "",
+                    "imageName": "广告3",
+                    "imageUrl": "http://www.17workout.com/Admin/UploadFile/api/test1.png",
+                    "typeId": "",
+                    "versionBegin": 0,
+                    "versionEnd": 0,
+                    "category": 0,
+                    "provinceId": "",
+                    "cityId": "",
+                    "sortIndex": 0,
+                    "isTop": 0
+                }
+            ]
+        }
+    }
+}
