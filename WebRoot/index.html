@@ -17,6 +17,8 @@
     <!-- 初始化提交信息-->
     <script type="text/javascript">
         $(document).ready(function () {
+            clickGetCluturesList();
+            clickGetNewsList();
             $("#fullname, #validemail, #message").defaultvalue("姓名", "Email Address", "Message");
             $('#shout a').click(function () {
                 var to = $(this).attr('href');

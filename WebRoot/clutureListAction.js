@@ -35,7 +35,7 @@ function clickGetCluturesList() {
         success: function (data) {
             // 将json转string
             var jsonText = JSON.stringify(data);
-            alert(jsonText);
+            //alert(jsonText);
             // 解析json里面的数据
             var response = data.response;
             var newsList = data.response.body.newsList;
@@ -116,7 +116,7 @@ function clickGetNewsList() {
         success: function (data) {
             // 将json转string
             var jsonText = JSON.stringify(data);
-            alert(jsonText);
+            //alert(jsonText);
             // 解析json里面的数据
             var response = data.response;
             var newsList = data.response.body.newsList;
