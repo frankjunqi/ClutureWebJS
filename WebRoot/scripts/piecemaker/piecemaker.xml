@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Piecemaker>
   <Contents>
-    <Image Source="images/demo/piecemaker/1.gif" Title="Slide 1"></Image>
-    <Image Source="images/demo/piecemaker/2.gif" Title="Slide 2">
+    <Image Source="images/demo/piecemaker/1.jpg" Title="Slide 1"></Image>
+    <Image Source="images/demo/piecemaker/2.jpg" Title="Slide 2">
       <Text>&lt;h1&gt;This Is A Headline&lt;/h1&gt;&lt;p&gt;Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.&lt;/p&gt;</Text>
       <Hyperlink URL="#" />
     </Image>
-    <Image Source="images/demo/piecemaker/3.gif" Title="Slide 3">
+    <Image Source="images/demo/piecemaker/3.jpg" Title="Slide 3">
       <Hyperlink URL="#" />
     </Image>
-    <Image Source="images/demo/piecemaker/4.gif" Title="Slide 4"></Image>
-    <Image Source="images/demo/piecemaker/5.gif" Title="Slide 5">
+    <Image Source="images/demo/piecemaker/4.jpg" Title="Slide 4"></Image>
+    <Image Source="images/demo/piecemaker/5.jpg" Title="Slide 5">
       <Text>&lt;h1&gt;This Is A Headline&lt;/h1&gt;&lt;p&gt;Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.&lt;/p&gt;</Text>
       <Hyperlink URL="#" />
     </Image>
