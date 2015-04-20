@@ -125,7 +125,7 @@ function clickGetNewsList() {
             });
             var htmls = "";
             $.each(newsList, function (i, v) {
-                if (i > 4) {
+                if (i > 3) {
                     return;
                 }
                 htmls = htmls + "<li> <p class='name'><strong>" + "作者：" + "</strong>" + newsList[i].author + "</p> <blockquote>" + newsList[i].content + "</blockquote> <p class='readmore' ><a target='_blank' href='" + newsList[i].newsId + "'><strong>" + "阅读详情" + "</strong></a></p> </li>";
