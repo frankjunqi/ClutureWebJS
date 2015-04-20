@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="EN" lang="EN" dir="ltr">
+<head>
+    <title>骏燕文化</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="imagetoolbar" content="no"/>
+    <link rel="stylesheet" href="styles/layout.css" type="text/css"/>
+    <script type="text/javascript" src="scripts/jquery-1.6.3.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.defaultvalue.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui-1.8.13.custom.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="clutureListAction.js"></script>
+    <!-- 初始化提交信息-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#fullname, #validemail, #message").defaultvalue("Full Name", "Email Address", "Message");
+            $('#shout a').click(function () {
+                var to = $(this).attr('href');
+                $.scrollTo(to, 1200);
+                return false;
+            });
+            $('a.topOfPage').click(function () {
+                $.scrollTo(0, 1200);
+                return false;
+            });
+            $("#tabcontainer").tabs({
+                event: "click"
+            });
+        });
+    </script>
+    <!-- Homepage Only Scripts -->
+    <script type="text/javascript" src="scripts/jquery.cycle.min.js"></script>
+    <!--<script type="text/javascript" src="scripts/jquery.cycle.setup.js"></script>-->
+    <script type="text/javascript" src="scripts/piecemaker/swfobject/swfobject.js"></script>
+    <script type="text/javascript">
+        var flashvars = {};
+        flashvars.cssSource = "scripts/piecemaker/piecemaker.css";
+        flashvars.xmlSource = "scripts/piecemaker/piecemaker.xml";
+        var params = {};
+        params.play = "false";
+        params.menu = "false";
+        params.scale = "showall";
+        params.wmode = "transparent";
+        params.allowfullscreen = "true";
+        params.allowscriptaccess = "sameDomain";
+        params.allownetworking = "all";
+        swfobject.embedSWF('scripts/piecemaker/piecemaker.swf', 'piecemaker', '960', '430', '10', null, flashvars, params, null);
+    </script>
+    <!-- End Homepage Only Scripts -->
+</head>
+<body id="top">
+<!--top search-->
+<div class="wrapper col1">
+    <div id="topbar" class="clear">
+        <form action="#" method="post" id="search">
+            <fieldset>
+                <legend>Site Search</legend>
+                <input type="text" value="Search Our Website&hellip;"
+                       onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;"/>
+                <input type="image" id="go" src="images/search.gif" alt="Search"/>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!-- 导航栏 -->
+<div class="wrapper col2">
+    <div id="header" class="clear">
+        <div class="fl_left">
+            <h1><a href="index.html"><img src="images/logo_black.jpg" alt=""
+                                          style="width: 380px;height: 70px; text-align: center"/></a></h1>
+        </div>
+        <div id="topnav">
+            <ul>
+                <li><a href="portfolio.html">招聘</a></li>
+                <li><a href="portfolio.html">团队</a></li>
+                <li><a href="gallery.html">动态</a></li>
+                <li><a href="full-width.html">案例</a></li>
+                <li><a href="style-demo.html">简介</a></li>
+                <li class="active"><a href="index.html">首页</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- banner的切换 -->
+<div class="wrapper col3">
+    <div id="featured_slide">
+        <!-- ####################################################################################################### -->
+        <div id="piecemaker"><img src="images/demo/piecemaker/960x360.gif" alt=""/></div>
+        <!-- ####################################################################################################### -->
+    </div>
+</div>
+<!-- 文化&新闻动态 -->
+<div class="wrapper col4">
+    <div id="container" class="clear">
+        <div id="homepage" class="clear">
+            <!-- 文化动态 -->
+            <div class="fl_left">
+                <h2 onclick="clickGetCluturesList();">Latest Featured Project</h2>
+
+                <div id="hpage_slider">
+                    <!-- <div class="item"><a href="gallery.html"><img src="images/pics/1.jpg" alt=""/></a></div>
+                     <div class="item"><img src="images/pics/2.jpg" alt=""/></div>
+                     <div class="item"><img src="images/pics/3.jpg" alt=""/></div>
+                     <div class="item"><img src="images/pics/4.jpg" alt=""/></div>
+                     <div class="item"><img src="images/pics/5.jpg" alt=""/></div>-->
+                </div>
+                <h2 id="cluture_title">Project Name Goes Here</h2>
+
+                <p id="cluture_type"></p>
+
+                <p id="cluture_desc"></p>
+
+                <p class="readmore"><a id="cluture_url" href="" target="_blank"><strong>查看详情 &raquo;</strong></a></p>
+            </div>
+            <!-- 新闻动态 -->
+            <div class="fl_right">
+                <h2>What People Say About Us</h2>
+                <ul class="testimonials">
+                    <li>
+                        <p class="name"><strong>Client Name</strong> - CEO</p>
+                        <blockquote>Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
+                            Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente
+                            velis felit ac nullam pretium morbi lacus.
+                        </blockquote>
+                        <p class="readmore"><a href="javascript:void(0)"><strong>View This Project</strong></a></p>
+                    </li>
+                    <li class="last">
+                        <p class="name"><strong>Client Name</strong> - CEO</p>
+                        <blockquote>Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
+                            Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente
+                            velis felit ac nullam pretium morbi lacus.
+                        </blockquote>
+                        <p class="readmore"><a href="javascript:void(0)"><strong>View This Project</strong></a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 关于我们 -->
+<div class="wrapper">
+    <div id="footer" class="clear">
+        <div class="fl_left">
+            <div class="about_us border">
+                <h2>About Us</h2>
+
+                <p>Sednulla nam nibh a nibh eu urna facinia mauristibulus sit urna. Vitaerisus lobortis proin elit et
+                    curabituris elit estibulum cursus iacus orci. Dignissimmorbi rhoncus sed netus ligula conseque netus
+                    nulla aliquat id dui. Ipsumintesque venean hendiment enim nis maecenas justo justo vitae purus sed.
+                    Rutrumcondimentumsan elit.</p>
+            </div>
+            <div id="contact" class="clear">
+                <h2>Contact Us</h2>
+
+                <div class="fl_left">
+                    <form method="post" action="#">
+                        <label for="fullname">Name:</label>
+                        <input type="text" name="fullname" id="fullname" value=""/>
+                        <label for="validemail">Email:</label>
+                        <input type="text" name="validemail" id="validemail" value=""/>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="45" rows="10"></textarea>
+                        <button type="submit" value="submit"><span>Submit</span></button>
+                    </form>
+                </div>
+                <div class="fl_right">
+                    <address>
+                        <strong class="title">Company Name</strong><br/>
+                        Street Name &amp; Number<br/>
+                        Town<br/>
+                        Postcode/Zip
+                    </address>
+                    <ul>
+                        <li><strong class="title">Tel:</strong><br/>
+                            xxxxx xxxxxxxxxx
+                        </li>
+                        <li><strong class="title">Fax:</strong><br/>
+                            xxxxx xxxxxxxxxx
+                        </li>
+                        <li><strong class="title">Email:</strong><br/>
+                            <a href="javascript:void(0)">contact@mydomain.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 互联网联系方式 -->
+        <div class="fl_right">
+            <h2>Keep Up To Date</h2>
+            <ul class="socialize">
+                <li><span>Facebook:</span> <a href="javascript:void(0)">www.facebook.com/myhandel</a></li>
+                <li><span>Twitter:</span> <a href="javascript:void(0)">www.twitter.com/myhandel</a></li>
+                <li class="last"><span>LinkedIn:</span> <a href="javascript:void(0)">www.linkedin.com/myhandel</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 回到顶部 -->
+    <div id="backtotop"><a href="#top" class="topOfPage">回到顶部</a></div>
+</div>
+<!-- 版权信息声明 -->
+<div class="wrapper">
+    <div id="copyright" class="clear">
+        <p class="fl_left">Copyright &copy; 2002-2015 版权所有 - <a href="javascript:void(0)">苏州骏燕文化有限公司</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
