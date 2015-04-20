@@ -1,0 +1,7 @@
+#web-info
+/WEB_INF/glassfish-web.xml
+/web/WEB_INF/web.xml
+
+# files for the dex VM
+*.idea/
+Cluture.iml
