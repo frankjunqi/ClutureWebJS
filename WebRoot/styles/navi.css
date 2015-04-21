@@ -144,7 +144,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 /* ----------------------------------------------Pagination-------------------------------------*/
 
-.pagination{display:block; width:100%; text-align:center; clear:both;}
+.pagination{display:block; width:100%; text-align:center; clear:both;margin-top: 30px;}
 .pagination ul{margin:0; padding:0; list-style:none;}
 .pagination li{display:inline;}
 .pagination .next{margin:0;}

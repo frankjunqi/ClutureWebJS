@@ -1,238 +1,298 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
 <head profile="http://gmpg.org/xfn/11">
-<title>CssSucai Demo 前端素材网 网页模板展示 仅供学习使用，请勿用于商业用途...</title>
-<meta name="keywords" content="html,html5,css,css3,div+css,网页设计,网站建设,网站策划,网站规划,页面设计,页面构造,网站素材,网页素材,建站素材,页面规划,前端设计,前端素材,网页模板,网页背景,图片,高清,模板,素材"/>
-<meta name="description" content="前端设计素材网构建于2013年，站点所有素材、文章全部来自互联网，仅供学习HTML、CSS、网页设计、网站建设使用，请勿用于商业用途，如需转载，请注明原始出处，若发生任何版权问题，本站概不负责。"/>
+    <title>骏燕文化</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="imagetoolbar" content="no" />
-<link rel="stylesheet" href="styles/layout.css" type="text/css" />
-<script type="text/javascript" src="scripts/jquery-1.6.3.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.defaultvalue.js"></script>
-<script type="text/javascript" src="scripts/jquery-ui-1.8.13.custom.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.scrollTo-min.js"></script>
-<script type="text/javascript">
-$(document).ready(function () {
-    $("#fullname, #validemail, #message").defaultvalue("Full Name", "Email Address", "Message");
-    $('#shout a').click(function () {
-        var to = $(this).attr('href');
-        $.scrollTo(to, 1200);
-        return false;
-    });
-    $('a.topOfPage').click(function () {
-        $.scrollTo(0, 1200);
-        return false;
-    });
-    $("#tabcontainer").tabs({
-        event: "click"
-    });
-});
-</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="imagetoolbar" content="no"/>
+    <link rel="stylesheet" href="styles/layout.css" type="text/css"/>
+    <script type="text/javascript" src="scripts/jquery-1.6.3.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.defaultvalue.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui-1.8.13.custom.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#fullname, #validemail, #message").defaultvalue("Full Name", "Email Address", "Message");
+            $('#shout a').click(function () {
+                var to = $(this).attr('href');
+                $.scrollTo(to, 1200);
+                return false;
+            });
+            $('a.topOfPage').click(function () {
+                $.scrollTo(0, 1200);
+                return false;
+            });
+            $("#tabcontainer").tabs({
+                event: "click"
+            });
+        });
+    </script>
 </head>
 <body id="top">
+<!--top search-->
 <div class="wrapper col1">
-  <div id="topbar" class="clear">
-    <ul>
-      <li><a href="javascript:void(0)">Libero</a></li>
-      <li><a href="javascript:void(0)">Maecenas</a></li>
-      <li><a href="javascript:void(0)">Mauris</a></li>
-      <li class="last"><a href="javascript:void(0)">Suspendisse</a></li>
-    </ul>
-    <form action="#" method="post" id="search">
-      <fieldset>
-        <legend>Site Search</legend>
-        <input type="text" value="Search Our Website&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
-        <input type="image" id="go" src="images/search.gif" alt="Search" />
-      </fieldset>
-    </form>
-  </div>
+    <div id="topbar" class="clear">
+        <form action="#" method="post" id="search">
+            <fieldset>
+                <legend>Site Search</legend>
+                <input type="text" value="Search Our Website&hellip;"
+                       onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;"/>
+                <input type="image" id="go" src="images/search.gif" alt="Search"/>
+            </fieldset>
+        </form>
+    </div>
 </div>
-<!-- ####################################################################################################### -->
+<!-- 导航栏 -->
 <div class="wrapper col2">
-  <div id="header" class="clear">
-    <div class="fl_left">
-      <h1><a href="index.html">PhotoProwess</a></h1>
-      <p>Free CSS Website Template</p>
-    </div>
-    <div id="topnav">
-      <ul>
-        <li class="last"><a href="gallery.html">Gallery</a><span>Test Text Here</span></li>
-        <li class="active"><a href="portfolio.html">Portfolio</a><span>Test Text Here</span></li>
-        <li><a href="javascript:void(0)">DropDown</a><span>Test Text Here</span>
-          <ul>
-            <li><a href="javascript:void(0)">Link 1</a></li>
-            <li><a href="javascript:void(0)">Link 2</a></li>
-            <li><a href="javascript:void(0)">Link 3</a></li>
-          </ul>
-        </li>
-        <li><a href="full-width.html">Full Width</a><span>Test Text Here</span></li>
-        <li><a href="style-demo.html">Style Demo</a><span>Test Text Here</span></li>
-        <li><a href="index.html">Homepage</a><span>Test Text Here</span></li>
-      </ul>
-    </div>
-  </div>
-</div>
-<!-- ####################################################################################################### -->
-<div class="wrapper col4">
-  <div id="container" class="clear">
-    <!-- ####################################################################################################### -->
-    <div id="shout" class="clear">
-      <div class="fl_left">
-        <h2>Need A Professional Photographer ?</h2>
-        <p>Why not try our services today, you won't regret your choice !</p>
-      </div>
-      <p class="fl_right"><a href="#contact">Contact Us Today</a></p>
-    </div>
-    <!-- ####################################################################################################### -->
-    <h1>Our Portfolio</h1>
-    <div id="portfolio">
-      <ul>
-        <li>
-          <div class="imgholder"><img src="images/demo/piecemaker/960x360.gif" alt="" /></div>
-          <p class="title">Project Name Here</p>
-          <p class="projectdescription">Duivelit vitanterdum metus laorem non arcu justo tor a elerisuspenas inte. Tempormi at auctortor dui senean tur intesque nam a met ut. Urnadolor feugiat nonummy alique doloreet malesuada sed vestie ipsum in praesent. Nibhat aenean intesque et at eger leo vestibulum tellus tor sus. Inut morbi leo lacus orci laoreet nam et temper mauris sodalesuada.</p>
-          <p class="readmore"><a href="javascript:void(0)"><strong>View The Full Project &raquo;</strong></a></p>
-        </li>
-        <li>
-          <div class="imgholder"><img src="images/demo/piecemaker/960x360.gif" alt="" /></div>
-          <p class="title">Project Name Here</p>
-          <p class="projectdescription">Duivelit vitanterdum metus laorem non arcu justo tor a elerisuspenas inte. Tempormi at auctortor dui senean tur intesque nam a met ut. Urnadolor feugiat nonummy alique doloreet malesuada sed vestie ipsum in praesent. Nibhat aenean intesque et at eger leo vestibulum tellus tor sus. Inut morbi leo lacus orci laoreet nam et temper mauris sodalesuada.</p>
-          <p class="readmore"><a href="javascript:void(0)"><strong>View The Full Project &raquo;</strong></a></p>
-        </li>
-        <li class="last">
-          <div class="imgholder"><img src="images/demo/piecemaker/960x360.gif" alt="" /></div>
-          <p class="title">Project Name Here</p>
-          <p class="projectdescription">Duivelit vitanterdum metus laorem non arcu justo tor a elerisuspenas inte. Tempormi at auctortor dui senean tur intesque nam a met ut. Urnadolor feugiat nonummy alique doloreet malesuada sed vestie ipsum in praesent. Nibhat aenean intesque et at eger leo vestibulum tellus tor sus. Inut morbi leo lacus orci laoreet nam et temper mauris sodalesuada.</p>
-          <p class="readmore"><a href="javascript:void(0)"><strong>View The Full Project &raquo;</strong></a></p>
-        </li>
-      </ul>
-    </div>
-    <!-- ####################################################################################################### -->
-    <div class="pagination">
-      <ul>
-        <li class="prev"><a href="javascript:void(0)">&laquo; Previous</a></li>
-        <li><a href="javascript:void(0)">1</a></li>
-        <li><a href="javascript:void(0)">2</a></li>
-        <li class="splitter">&hellip;</li>
-        <li><a href="javascript:void(0)">6</a></li>
-        <li class="current">7</li>
-        <li><a href="javascript:void(0)">8</a></li>
-        <li><a href="javascript:void(0)">9</a></li>
-        <li class="splitter">&hellip;</li>
-        <li><a href="javascript:void(0)">14</a></li>
-        <li><a href="javascript:void(0)">15</a></li>
-        <li class="next"><a href="javascript:void(0)">Next &raquo;</a></li>
-      </ul>
-    </div>
-    <!-- ####################################################################################################### -->
-    <div class="clear"></div>
-  </div>
-</div>
-<!-- ####################################################################################################### -->
-<div class="wrapper">
-  <div id="footer" class="clear">
-    <div class="fl_left">
-      <div class="about_us border">
-        <h2>About Us</h2>
-        <p>Sednulla nam nibh a nibh eu urna facinia mauristibulus sit urna. Vitaerisus lobortis proin elit et curabituris elit estibulum cursus iacus orci. Dignissimmorbi rhoncus sed netus ligula conseque netus nulla aliquat id dui. Ipsumintesque venean hendiment enim nis maecenas justo justo vitae purus sed. Rutrumcondimentumsan elit.</p>
-      </div>
-      <div id="contact" class="clear">
-        <h2>Contact Us</h2>
+    <div id="header" class="clear">
         <div class="fl_left">
-          <form method="post" action="#">
-            <label for="fullname">Name:</label>
-            <input type="text" name="fullname" id="fullname" value="" />
-            <label for="validemail">Email:</label>
-            <input type="text" name="validemail" id="validemail" value="" />
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" cols="45" rows="10"></textarea>
-            <button type="submit" value="submit"><span>Submit</span></button>
-          </form>
+            <h1><a href="index.html"><img src="images/logo_black.jpg" alt=""
+                                          style="width: 280px;height: 52px; text-align: center"/></a></h1>
         </div>
-        <div class="fl_right">
-          <address>
-          <strong class="title">Company Name</strong><br />
-          Street Name &amp; Number<br />
-          Town<br />
-          Postcode/Zip
-          </address>
-          <ul>
-            <li><strong class="title">Tel:</strong><br />
-              xxxxx xxxxxxxxxx</li>
-            <li><strong class="title">Fax:</strong><br />
-              xxxxx xxxxxxxxxx</li>
-            <li><strong class="title">Email:</strong><br />
-              <a href="javascript:void(0)">contact@mydomain.com</a></li>
-          </ul>
+        <div id="topnav">
+            <ul>
+                <li><a href="portfolio.html">招聘</a></li>
+                <li class="active"><a href="portfolio.html">新闻动态</a></li>
+                <li><a href="gallery.html">动态</a></li>
+                <li><a href="full-width.html">案例</a></li>
+                <li><a href="style-demo.html">简介</a></li>
+                <li><a href="index.html">首页</a></li>
+            </ul>
         </div>
-      </div>
     </div>
-    <!-- ####################################################################################################### -->
-    <div class="fl_right">
-      <div id="tabcontainer" class="border">
-        <ul id="tabnav">
-          <li><a href="#tabs-1">From The Blog</a></li>
-          <li><a href="#tabs-2">Latest Tweets</a></li>
-          <li class="last"><a href="#tabs-3">Interesting Links</a></li>
-        </ul>
-        <div id="tabs-1" class="tabcontainer">
-          <ul class="blogposts">
-            <li>
-              <p class="posttitle">Justoid nonummy laoreet phasellent</p>
-              <p class="publishedon">Published on 01 Jan 2042, by Username</p>
-              <p class="postintro">Miet gravida nulla at augue curabitae faucibulum nulla curabitur consectetus dolorem. Ametuervestibus nam nibh laculis vivamus suscinia masse convallis sollis quam males.</p>
-              <p class="readmore"><a href="javascript:void(0)">Read More &raquo;</a></p>
-            </li>
-            <li class="last">
-              <p class="posttitle">Justoid nonummy laoreet phasellent</p>
-              <p class="publishedon">Published on 01 Jan 2042, by Username</p>
-              <p class="postintro">Miet gravida nulla at augue curabitae faucibulum nulla curabitur consectetus dolorem. Ametuervestibus nam nibh laculis vivamus suscinia masse convallis sollis quam males.</p>
-              <p class="readmore"><a href="javascript:void(0)">Read More &raquo;</a></p>
-            </li>
-          </ul>
-        </div>
-        <!-- ########### -->
-        <div id="tabs-2" class="tabcontainer">
-          <ul class="twitterfeed">
-            <li><a href="javascript:void(0)">@namehere</a> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. <span>1 day ago</span></li>
-            <li><a href="javascript:void(0)">@namehere</a> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. <span>1 day ago</span></li>
-            <li><a href="javascript:void(0)">@namehere</a> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. <span>1 day ago</span></li>
-            <li class="last"><a href="javascript:void(0)">@namehere</a> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. <span>1 day ago</span></li>
-          </ul>
-        </div>
-        <!-- ########### -->
-        <div id="tabs-3" class="tabcontainer">
-          <ul>
-            <li><a href="javascript:void(0)">Lorem ipsum dolor sit</a></li>
-            <li><a href="javascript:void(0)">Amet consectetur</a></li>
-            <li><a href="javascript:void(0)">Praesent vel sem id</a></li>
-            <li><a href="javascript:void(0)">Curabitur hendrerit est</a></li>
-            <li><a href="javascript:void(0)">Aliquam eget erat nec sapien</a></li>
-            <li><a href="javascript:void(0)">Cras id augue nunc</a></li>
-            <li><a href="javascript:void(0)">In nec justo non</a></li>
-            <li><a href="javascript:void(0)">Vivamus mollis enim ut</a></li>
-            <li class="last"><a href="javascript:void(0)">Sed a nulla urna</a></li>
-          </ul>
-        </div>
-      </div>
-      <h2>Keep Up To Date</h2>
-      <ul class="socialize">
-        <li><span>Facebook:</span> <a href="javascript:void(0)">www.facebook.com/myhandel</a></li>
-        <li><span>Twitter:</span> <a href="javascript:void(0)">www.twitter.com/myhandel</a></li>
-        <li class="last"><span>LinkedIn:</span> <a href="javascript:void(0)">www.linkedin.com/myhandel</a></li>
-      </ul>
-    </div>
-  </div>
-  <div id="backtotop"><a href="#top" class="topOfPage">To The Top</a></div>
 </div>
-<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+    <div id="container" class="clear">
+        <h1>新闻动态</h1>
+        <!--列表数据-->
+        <div id="portfolio">
+            <ul>
+                <li>
+                    <div class="imgholder"><img style="width: 230px; height: 160px;" src="images/pics/1.jpg"
+                                                alt=""/>
+
+                    </div>
+                    <div class="content">
+                        <p class="title">Project Name Here</p>
+
+                        <p class="projectdescription">
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                        </p>
+
+                        <p class="readmore"><a href="javascript:void(0)"><strong>View The Full
+                            Project &raquo;</strong></a>
+                        </p></div>
+
+                </li>
+                <li>
+                    <div class="imgholder"><img style="width: 230px; height: 160px;" src="images/pics/1.jpg"
+                                                alt=""/>
+
+                    </div>
+                    <div class="content">
+                        <p class="title">Project Name Here</p>
+
+                        <p class="projectdescription">
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                        </p>
+
+                        <p class="readmore"><a href="javascript:void(0)"><strong>View The Full
+                            Project &raquo;</strong></a>
+                        </p></div>
+
+                </li>
+                <li>
+                    <div class="imgholder"><img style="width: 230px; height: 160px;" src="images/pics/1.jpg"
+                                                alt=""/>
+
+                    </div>
+                    <div class="content">
+                        <p class="title">Project Name Here</p>
+
+                        <p class="projectdescription">
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                        </p>
+
+                        <p class="readmore"><a href="javascript:void(0)"><strong>View The Full
+                            Project &raquo;</strong></a>
+                        </p></div>
+
+                </li>
+                <li>
+                    <div class="imgholder"><img style="width: 230px; height: 160px;" src="images/pics/1.jpg"
+                                                alt=""/>
+
+                    </div>
+                    <div class="content">
+                        <p class="title">Project Name Here</p>
+
+                        <p class="projectdescription">
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                        </p>
+
+                        <p class="readmore"><a href="javascript:void(0)"><strong>View The Full
+                            Project &raquo;</strong></a>
+                        </p></div>
+
+                </li>
+                <li>
+                    <div class="imgholder"><img style="width: 230px; height: 160px;" src="images/pics/1.jpg"
+                                                alt=""/>
+
+                    </div>
+                    <div class="content">
+                        <p class="title">Project Name Here</p>
+
+                        <p class="projectdescription">
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                        </p>
+
+                        <p class="readmore"><a href="javascript:void(0)"><strong>View The Full
+                            Project &raquo;</strong></a>
+                        </p></div>
+
+                </li>
+                <li>
+                    <div class="imgholder"><img style="width: 230px; height: 160px;" src="images/pics/1.jpg"
+                                                alt=""/>
+
+                    </div>
+                    <div class="content">
+                        <p class="title">Project Name Here</p>
+
+                        <p class="projectdescription">
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                        </p>
+
+                        <p class="readmore"><a href="javascript:void(0)"><strong>View The Full
+                            Project &raquo;</strong></a>
+                        </p></div>
+
+                </li>
+                <li>
+                    <div class="imgholder"><img style="width: 230px; height: 160px;" src="images/pics/1.jpg"
+                                                alt=""/>
+
+                    </div>
+                    <div class="content">
+                        <p class="title">Project Name Here</p>
+
+                        <p class="projectdescription">
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                        </p>
+
+                        <p class="readmore"><a href="javascript:void(0)"><strong>View The Full
+                            Project &raquo;</strong></a>
+                        </p></div>
+
+                </li>
+                <li>
+                    <div class="imgholder"><img style="width: 230px; height: 160px;" src="images/pics/1.jpg"
+                                                alt=""/>
+
+                    </div>
+                    <div class="content">
+                        <p class="title">Project Name Here</p>
+
+                        <p class="projectdescription">
+                            如果你关注过星巴克，大概还记得07年芮成钢一篇题为《请星巴克从故宫里出去》的博客所引发的新闻事件。不久后星巴克退出故宫，取而代之的是国产咖啡品牌。从某个层面上看，这一事件反映了国人对民族文化以及国产品牌复兴的期待。
+                        </p>
+
+                        <p class="readmore"><a href="javascript:void(0)"><strong>View The Full
+                            Project &raquo;</strong></a>
+                        </p></div>
+
+                </li>
+            </ul>
+        </div>
+        <!-- 页码的设置 -->
+        <div class="pagination">
+            <ul>
+                <li class="prev"><a href="javascript:void(0)">&laquo; 前一页</a></li>
+                <li><a href="javascript:void(0)">1</a></li>
+                <li><a href="javascript:void(0)">2</a></li>
+                <li class="splitter">&hellip;</li>
+                <li><a href="javascript:void(0)">6</a></li>
+                <li class="current">7</li>
+                <li><a href="javascript:void(0)">8</a></li>
+                <li><a href="javascript:void(0)">9</a></li>
+                <li class="splitter">&hellip;</li>
+                <li><a href="javascript:void(0)">14</a></li>
+                <li><a href="javascript:void(0)">15</a></li>
+                <li class="next"><a href="javascript:void(0)">下一页 &raquo;</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<!-- 关于我们 -->
 <div class="wrapper">
-  <div id="copyright" class="clear">
-    <p class="fl_left">Copyright &copy; 2011 - All Rights Reserved - <a href="javascript:void(0)">Domain Name</a></p>
-    <p class="fl_right">Template by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-  </div>
+    <div id="footer" class="clear">
+        <div class="fl_left">
+            <div class="about_us border">
+                <h2>关于我们</h2>
+
+                <p>骏燕文化传播有限公司主营高端商业摄影，凭借严谨的工作作风，从工艺与艺术高度融合的思考态度，以完备的策划体系，致力于高端文化商业产品的专业策划与拍摄。为您提供专业的拍摄、设计及印刷制作的服务平台。</p>
+            </div>
+            <div id="contact" class="clear">
+                <h2>联系我们</h2>
+
+                <div class="fl_left">
+                    <form method="post" action="#">
+                        <label for="fullname">姓名:</label>
+                        <input type="text" name="fullname" id="fullname" value=""/>
+                        <label for="validemail">Email:</label>
+                        <input type="text" name="validemail" id="validemail" value=""/>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="45" rows="10"></textarea>
+                        <button type="submit" value="submit"><span>提交</span></button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!-- 互联网联系方式 -->
+        <div class="fl_right">
+            <h2>互联沟通</h2>
+            <ul class="socialize">
+                <li><span>Facebook:</span> <a href="javascript:void(0)">www.facebook.com/myhandel</a></li>
+                <li><span>Twitter:</span> <a href="javascript:void(0)">www.twitter.com/myhandel</a></li>
+                <li class="last"><span>LinkedIn:</span> <a href="javascript:void(0)">www.linkedin.com/myhandel</a></li>
+            </ul>
+            <div style="margin-top: 40px">
+                <address>
+                    <strong class="title"> 骏燕文化传播有限公司</strong><br/>
+                    苏州市姑苏区十梓街395号（公园路交叉路口）<br/>
+                </address>
+                <ul>
+                    <li><strong class="title">Tel:</strong><br/>
+                        15250091300
+                    </li>
+                    <li><strong class="title">Tel:</strong><br/>
+                        13358001200
+                    </li>
+                    <li><strong class="title">Email:</strong><br/>
+                        <a href="javascript:void(0)">junyanwenhua@sina.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 回到顶部 -->
+    <div id="backtotop"><a href="#top" class="topOfPage">回到顶部</a></div>
 </div>
-<script type="text/javascript" src="http://tajs.qq.com/stats?sId=21565696" charset="UTF-8"></script>
+<!-- 版权信息声明 -->
+<div class="wrapper">
+    <div id="copyright" class="clear">
+        <p class="fl_left">Copyright &copy; 2002-2015 版权所有 - <a href="javascript:void(0)">苏州骏燕文化有限公司</a>
+        </p>
+    </div>
+</div>
 </body>
 </html>
