@@ -1,0 +1,50 @@
+<div class="inner-txt" id="innerTxt">
+            <span style="line-height:2;font-family:Microsoft YaHei;font-size:14px;"></span>
+<p>
+	<br>
+</p>
+<p>
+	<span style="font-size:14px;font-family:Microsoft YaHei;"> </span>
+</p>
+<p>
+	<span style="font-family:Microsoft YaHei;"><span style="line-height:2;">&nbsp; &nbsp; &nbsp;</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">&nbsp; &nbsp;Mtime时光网（</span></span><span><a href="http://www.mtime.com/"><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">www.mtime.com</span></a></span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">）成立于</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">2005</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">年，是目前中国知名的电影门户和电影推广公司，类似美国版本</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">IMDB,Yahoo
+Movie</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">及</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">Fandango</span><span style="font-family:'Microsoft YaHei';font-size:14px;"><span style="line-height:2;">的结合。</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站月访问的观影人数超过</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">8000</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">万，手机用户超过6500万，是中国下载量最多、使用率最高的电影应用软件。我们拥有最大的电影互动社区，并在电影资讯，电影评论，电影数据库，在线购票等各个方面提供最为专业的服务。</span><span style="line-height:2;"></span></span>
+</p>
+<p>
+	<span style="font-family:Microsoft YaHei;"><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">&nbsp; &nbsp; &nbsp; Founded in 2005, Mtime.com</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">&nbsp;is the leading movie portal and the combination of US version of IMDB, Yahoo Movie and Fandango with 80 million monthly unique movie users on PC. In addition, &nbsp;Mtime App is the most downloaded and used movie application in China with 65 million users. &nbsp;&nbsp;Mtime is THE destination for Chinese movie news, review, database, online ticketing and largest movie fan's community.</span><br>
+</span>
+</p>
+<p>
+	<span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
+</p>
+<p>
+	<span style="line-height:2;font-family:'Microsoft YaHei';font-size:14px;">&nbsp; &nbsp; &nbsp; 时光网一直努力为员工创造一个结合工作志向及兴趣爱好的理想发展平台，关注每一个员工的职业发展和成长机遇，致力于共同营建一个专业的工作团队和一个和谐友好的伙伴群体。我们真诚地希望更多热爱电影的伙伴能够加入时光这个大家庭，在这个光影的世界里实现自己的职业梦想。</span>
+</p>
+<p>
+	<span style="line-height:1.5;font-family:'Microsoft YaHei';"><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">&nbsp; &nbsp; &nbsp;&nbsp;</span><span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">&nbsp;Mtime constantly strives to improve its work place to provide the ideal working environment for its employees. We care about our employees career development and growth opportunities. We devote ourselves to work with our employee, together to build professional and friendly community. We are truly looking forward to have more movie loving people to join us to realize his or hers career dream.&nbsp;</span></span>
+</p>
+<p>
+	<span style="font-family:'Microsoft YaHei';font-size:14px;line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp;</span>
+</p>
+<p>
+	<span style="line-height:2;font-family:'Microsoft YaHei';font-size:14px;">&nbsp; &nbsp; &nbsp;时光网，期待你的加入！</span>
+</p>
+<p>
+	<span style="line-height:2;font-family:'Microsoft YaHei';font-size:14px;">&nbsp; &nbsp; &nbsp;&nbsp;</span><span style="font-family:'Microsoft YaHei';line-height:2;font-size:14px;">Welcome to Mtime!</span>
+</p>
+<p>
+	<br>
+</p>
+<p>
+	<br>
+</p>
+<p style="text-align:center;">
+	<img alt="" src="http://files.hirede.com/Load.ashx?fileKey=Kindeditor_f5cca163-9970-4d88-b6e1-770a5dc53303-233_1_0">
+</p>
+<p style="text-align:center;">
+	<img alt="" src="http://files.hirede.com/Load.ashx?fileKey=Kindeditor_058b7088-47ab-4e5b-bd53-7f338c3e11f3-231_1_0">
+</p>
+<p>
+	<br>
+</p>
+        </div>

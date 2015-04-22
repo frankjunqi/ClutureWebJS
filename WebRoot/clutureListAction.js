@@ -104,13 +104,79 @@ function clickGetCompanyProfile() {
                 "<img style ='  width: 940px; height: 320px;' src='" + newsList[i].thumbimage + "'" + " /></a><!-- /box --></div>";
             });
             $("#companyprofile_hpage_slider").html(htmls);
-            initBanner(newsList);
+            initCompanyProfileBanner(newsList);
             // 重定向地址
             //window.location.href = "../newsdetail/newsdetailpage.html?newsid=1"
         }
     });
 }
 
+
+/**
+ * 公司简介的banner
+ * @param newsList
+ */
+function initCompanyProfileBanner(newsList) {
+    $('#companyprofile_hpage_slider').after('<div id="fsn"><ul id="fs_pagination">').cycle({
+        timeout: 1000, // milliseconds between slide transitions (0 to disable auto advance)
+        fx: 'fade', // choose a transition type, ex: fade, scrollUp, shuffle, etc...
+        pager: '#fs_pagination', // selector for element to use as pager container
+        pause: 1, // true to enable "pause on hover"
+        after: function (currSlideElement, nextSlideElement, options, forwardFlag) {
+            // banner滑动事件index
+            //alert('s' + newsList[options.currSlide]);
+            // 根据id的显示数据
+            $('#cluture_title').text(newsList[options.currSlide].title);
+            //$('#cluture_type').html("<strong>类型:</strong>" + newsList[options.currSlide].typelx);
+            //$('#cluture_desc').text(newsList[options.currSlide].desc);
+            // 获取公司简介信息
+            clickShowCompanyProfile();
+            // 赋值a标签href
+            //$('#cluture_url').attr('href', (newsList[options.currSlide].newsId));
+        },
+        pauseOnPagerHover: 0 // true to pause when hovering over pager link
+    });
+};
+/**
+ * 获取公司简介信息
+ */
+function clickShowCompanyProfile() {
+    $.ajax({
+        // url : "http://yundong.shenghuo365.net/ActiveHandler.ashx",
+        url: "companyprofiletxt.txt",
+        type: "POST",
+        contentType: "application/json", // 必须有
+        dataType: "text", // 表示返回值类型，不必须
+        data: JSON.stringify({
+            "request": {
+                "body": {
+                    "clientInfo": {
+                        "clientIp": "10.228.237.141",
+                        "deviceId": "68a116b07394858b",
+                        "networktype": "wifi",
+                        "refId": "5866720",
+                        "versionNumber": "1.0",
+                        "versionType": "android"
+                    },
+                    "activeId": "467"
+                },
+                "header": {
+                    "accountID": "c26b007f-c89e-431a-b8cc-493becbdd8a2",
+                    "digitalSign": "7c0a13565e8a110eb4e3875708c056c4",
+                    "reqTime": "1429289137608",
+                    "serviceName": "GetActiveDetailById",
+                    "version": "20111128102912"
+                }
+            }
+        }), // 相当于请求的json
+        success: function (data) {
+            var htmls = data;
+            $("#cluture_desc").html(htmls);
+            // 重定向地址
+            //window.location.href = "../newsdetail/newsdetailpage.html?newsid=1"
+        }
+    })
+}
 /**
  * 首页文化banner滚动的js
  *
@@ -118,7 +184,7 @@ function clickGetCompanyProfile() {
  *
  */
 function initBanner(newsList) {
-    $('#companyprofile_hpage_slider').after('<div id="fsn"><ul id="fs_pagination">').cycle({
+    $('#hpage_slider').after('<div id="fsn"><ul id="fs_pagination">').cycle({
         timeout: 1000, // milliseconds between slide transitions (0 to disable auto advance)
         fx: 'fade', // choose a transition type, ex: fade, scrollUp, shuffle, etc...
         pager: '#fs_pagination', // selector for element to use as pager container
