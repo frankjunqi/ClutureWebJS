@@ -14,11 +14,11 @@
     <script type="text/javascript" src="scripts/jquery-ui-1.8.13.custom.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.scrollTo-min.js"></script>
     <script type="text/javascript" src="clutureListAction.js"></script>
+    <script type="text/javascript" src="scripts/jquery.cycle.min.js"></script>
     <!-- 初始化提交信息-->
     <script type="text/javascript">
         $(document).ready(function () {
-            clickGetCluturesList();
-            clickGetNewsList();
+            clickGetCompanyProfile();
             $("#fullname, #validemail, #message").defaultvalue("姓名", "Email Address", "Message");
             $('#shout a').click(function () {
                 var to = $(this).attr('href');
@@ -34,25 +34,6 @@
             });
         });
     </script>
-    <!-- Homepage Only Scripts -->
-    <script type="text/javascript" src="scripts/jquery.cycle.min.js"></script>
-    <!--<script type="text/javascript" src="scripts/jquery.cycle.setup.js"></script>-->
-    <script type="text/javascript" src="scripts/piecemaker/swfobject/swfobject.js"></script>
-    <script type="text/javascript">
-        var flashvars = {};
-        flashvars.cssSource = "scripts/piecemaker/piecemaker.css";
-        flashvars.xmlSource = "scripts/piecemaker/piecemaker.xml";
-        var params = {};
-        params.play = "false";
-        params.menu = "false";
-        params.scale = "showall";
-        params.wmode = "transparent";
-        params.allowfullscreen = "true";
-        params.allowscriptaccess = "sameDomain";
-        params.allownetworking = "all";
-        swfobject.embedSWF('scripts/piecemaker/piecemaker.swf', 'piecemaker', '960', '430', '10', null, flashvars, params, null);
-    </script>
-    <!-- End Homepage Only Scripts -->
 </head>
 <body id="top">
 <!--top search-->
@@ -81,27 +62,21 @@
                 <li><a href="portfolio.html">新闻动态</a></li>
                 <li><a href="gallery.html">动态</a></li>
                 <li><a href="full-width.html">案例</a></li>
-                <li><a href="companyprofile.html">简介</a></li>
-                <li class="active"><a href="index.html">首页</a></li>
+                <li class="active"><a href="companyprofile.html">简介</a></li>
+                <li><a href="index.html">首页</a></li>
             </ul>
         </div>
-    </div>
-</div>
-<!-- banner的切换 -->
-<div class="wrapper col3">
-    <div id="featured_slide">
-        <div id="piecemaker"><img src="images/demo/piecemaker/960x360.gif" alt=""/></div>
     </div>
 </div>
 <!-- 文化&新闻动态 -->
 <div class="wrapper col4">
     <div id="container" class="clear">
-        <div id="homepage" class="clear">
+        <div id="compayprofiles" class="clear">
             <!-- 文化动态 -->
-            <div class="fl_left">
-                <h2>文化动态</h2>
+            <div class="company_content">
+                <h2>公司信息&团队</h2>
 
-                <div id="hpage_slider">
+                <div id="companyprofile_hpage_slider">
                     <!-- 代码动态添加 -->
                 </div>
                 <!-- 代码根据id动态修改显示数据 -->
@@ -112,13 +87,6 @@
                 <p id="cluture_desc"></p>
 
                 <p class="readmore"><a id="cluture_url" href="" target="_blank"><strong>查看详情 &raquo;</strong></a></p>
-            </div>
-            <!-- 新闻动态 -->
-            <div class="fl_right">
-                <h2 onclick="clickGetNewsList();">新闻动态</h2>
-                <ul id="newslist" class="testimonials">
-                    <!-- 代码动态添加 -->
-                </ul>
             </div>
         </div>
     </div>

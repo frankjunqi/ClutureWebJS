@@ -17,8 +17,7 @@
     <!-- 初始化提交信息-->
     <script type="text/javascript">
         $(document).ready(function () {
-            clickGetCluturesList();
-            clickGetNewsList();
+            clickGetJoinOurTeam();
             $("#fullname, #validemail, #message").defaultvalue("姓名", "Email Address", "Message");
             $('#shout a').click(function () {
                 var to = $(this).attr('href');
@@ -34,25 +33,6 @@
             });
         });
     </script>
-    <!-- Homepage Only Scripts -->
-    <script type="text/javascript" src="scripts/jquery.cycle.min.js"></script>
-    <!--<script type="text/javascript" src="scripts/jquery.cycle.setup.js"></script>-->
-    <script type="text/javascript" src="scripts/piecemaker/swfobject/swfobject.js"></script>
-    <script type="text/javascript">
-        var flashvars = {};
-        flashvars.cssSource = "scripts/piecemaker/piecemaker.css";
-        flashvars.xmlSource = "scripts/piecemaker/piecemaker.xml";
-        var params = {};
-        params.play = "false";
-        params.menu = "false";
-        params.scale = "showall";
-        params.wmode = "transparent";
-        params.allowfullscreen = "true";
-        params.allowscriptaccess = "sameDomain";
-        params.allownetworking = "all";
-        swfobject.embedSWF('scripts/piecemaker/piecemaker.swf', 'piecemaker', '960', '430', '10', null, flashvars, params, null);
-    </script>
-    <!-- End Homepage Only Scripts -->
 </head>
 <body id="top">
 <!--top search-->
@@ -77,48 +57,35 @@
         </div>
         <div id="topnav">
             <ul>
-                <li><a href="joinourteam.html">招聘</a></li>
+                <li class="active"><a href="joinourteam.html">招聘</a></li>
                 <li><a href="portfolio.html">新闻动态</a></li>
                 <li><a href="gallery.html">动态</a></li>
                 <li><a href="full-width.html">案例</a></li>
                 <li><a href="companyprofile.html">简介</a></li>
-                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="index.html">首页</a></li>
             </ul>
         </div>
-    </div>
-</div>
-<!-- banner的切换 -->
-<div class="wrapper col3">
-    <div id="featured_slide">
-        <div id="piecemaker"><img src="images/demo/piecemaker/960x360.gif" alt=""/></div>
     </div>
 </div>
 <!-- 文化&新闻动态 -->
 <div class="wrapper col4">
     <div id="container" class="clear">
-        <div id="homepage" class="clear">
-            <!-- 文化动态 -->
-            <div class="fl_left">
-                <h2>文化动态</h2>
+        <div id="joinourteam" class="clear">
+            <!-- 职位名称 -->
 
-                <div id="hpage_slider">
-                    <!-- 代码动态添加 -->
-                </div>
-                <!-- 代码根据id动态修改显示数据 -->
-                <h2 id="cluture_title">Project Name Goes Here</h2>
-
-                <p id="cluture_type"></p>
-
-                <p id="cluture_desc"></p>
-
-                <p class="readmore"><a id="cluture_url" href="" target="_blank"><strong>查看详情 &raquo;</strong></a></p>
+            <div class="jobtitle">
+                <h2 class="title">JOIN US</h2>
+                <ul>
+                    <li>平面设计</li>
+                    <li>摄影师</li>
+                    <li>资深编辑</li>
+                    <li>玉雕设计师</li>
+                    <li>资深平面设计</li>
+                </ul>
             </div>
             <!-- 新闻动态 -->
-            <div class="fl_right">
-                <h2 onclick="clickGetNewsList();">新闻动态</h2>
-                <ul id="newslist" class="testimonials">
-                    <!-- 代码动态添加 -->
-                </ul>
+            <div class="content">
+                <p id="joinourteam_content" class="projectdescription"></p>
             </div>
         </div>
     </div>

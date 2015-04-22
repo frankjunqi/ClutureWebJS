@@ -1,0 +1,26 @@
+<div class="td_c_rt">
+
+
+                        <div class="td_con">
+<img src="http://myimg.zhaopin.com/images/blank.gif" width="1" height="8"><br>
+<div class="bgTitle">职位描述/要求：</div>
+<div style="font-size:12px;">任职要求</div>
+<div style="font-size:12px;"><br>
+&nbsp;</div>
+<div style="font-size:12px;">1：美术及设计类相关专业背景，有扎实的美术功底和独特的视觉表现力。</div>
+<div style="font-size:12px;">&nbsp;</div>
+<div style="font-size:12px;">2：对商业设计，特别是品牌创意设计有较深的领悟和理解。</div>
+<div style="font-size:12px;"><br>
+3：多年平面设计经验，特别是在Logo、VI、品牌包装等方面有成熟的设计作品，有奢侈品、地产等行业从业经验的优先。</div>
+<div style="font-size:12px;"><br>
+4：热爱传统文化，能很好的平衡和把握客户和市场对设计的需求。</div>
+<div style="font-size:12px;"><br>
+5：熟悉设计、输出、印刷等后期制作工艺流程。</div>
+<div style="font-size:12px;">&nbsp;</div>
+<div style="font-size:12px;">6：性格开朗，有良好的沟通能力和团队合作精神。</div>
+<div style="font-size:12px;"><br>
+7：具有良好的职业素养和职业道德；做事认真，讲求细节。</div>
+<div style="font-size:12px;">&nbsp;</div>
+<div style="font-size:12px;">8：面试时请携带本人设计作品。</div>
+                        </div>
+                    </div>
