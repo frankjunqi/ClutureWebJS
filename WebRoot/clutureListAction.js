@@ -197,7 +197,8 @@ function initBanner(newsList) {
             $('#cluture_type').html("<strong>类型:</strong>" + newsList[options.currSlide].typelx);
             $('#cluture_desc').text(newsList[options.currSlide].desc);
             // 赋值a标签href
-            $('#cluture_url').attr('href', (newsList[options.currSlide].newsId));
+            //$('#cluture_url').attr('href', ("gallery.html");
+            $('#cluture_url').attr('href', ("gallery.html?"+newsList[options.currSlide].newsId));
         },
         pauseOnPagerHover: 0 // true to pause when hovering over pager link
     });
