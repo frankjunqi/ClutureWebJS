@@ -37,7 +37,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	font-family:Arial, Helvetica, sans-serif;
 	text-transform:lowercase;
 	color:#666666;
-	background-color:#202020;
+	background-color:#ffffff;
 	font-weight:normal;
 	line-height:normal;
 	}
@@ -46,8 +46,8 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	display:block;
 	margin:0;
 	padding:0;
-	color:#FFFFFF;
-	background-color:#202020;
+	color:#666666;
+	background-color:#ffffff;
 	text-transform:uppercase;
 	}
 
@@ -57,7 +57,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 #topnav li a:hover, #topnav li.active a{
 	color:#FBF8CD;
-	background-color:#202020;
+	background-color:#666666;
 	}
 	
 #topnav li li a:link, #topnav li li a:visited{
@@ -67,14 +67,14 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	padding:7px 10px;
 	font-size:12px;
 	font-weight:normal;
-	color:#FFFFFF;
-	background-color:#202020;
+	color:#797979;
+	background-color:#ffffff;
 	border:none;
 	}
 	
 #topnav li li a:hover{
 	color:#FBF8CD;
-	background-color:#202020;
+	background-color:#666666;
 	}
 
 #topnav ul ul{
